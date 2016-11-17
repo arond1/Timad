@@ -10,12 +10,7 @@ https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-s
 
 
 =============================================
-Zeone de transfert de lien avec le serv :
 
-
-sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var
-
-
-sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var
+http://localhost/Symfony/web/app_dev.php/
 
 ===========================================
