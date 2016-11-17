@@ -11,6 +11,6 @@ https://openclassrooms.com/courses/developpez-votre-site-web-avec-le-framework-s
 
 =============================================
 
-http://localhost/Symfony/web/app_dev.php/
+https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/preparer-son-ordinateur-2
 
 ===========================================
