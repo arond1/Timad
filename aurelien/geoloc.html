@@ -22,7 +22,7 @@
 		if (navigator.geolocation)
 			var watchId = navigator.geolocation.watchPosition(successCallback, null, {enableHighAccuracy:true});
 		else
-			alert("Votre navigateur ne prend pas en compte la géolocalisation HTML5");
+			alert("Votre navigateur ne prend pas en compte la gÃ©olocalisation HTML5");
 			
 		function successCallback(position){
 			map.panTo(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
