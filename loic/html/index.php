@@ -18,10 +18,12 @@
 
 		<div id="Article2">
 			<h3 class="titreContent"> recherchez une enseigne </h3>
-			<form method="post" action="traitement.php">
+			<form method="post" action="Recherche.php">
 				<table>
 					<tr>
-						<td>Nom de l'enseigne</td> <td><input type="text" name="Nom" /></td>  
+						<td>Nom de l'enseigne</td> <td><input type="text" name="Nom" /></td>
+						<br/>
+						 <input type="submit" value="Valider" />
 					</tr>
 				</table>
 

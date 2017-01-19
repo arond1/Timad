@@ -8,7 +8,7 @@
 	<nav>
   			<ul id="navigation">
 				<li> 
-					<a href="/index.php"><img src="nav_home_log.png" alt="Home" class="img-nav"/></a> 
+					<a href="./index.php"><img src="nav_home_log.png" alt="Home" class="img-nav"/></a> 
 				</li>
     			<li class="liN onglet"> <a id="assoc" href="http://aquanux/11504512/projet/association.html">Paris</a> </li>
     			<li class="liN onglet"> <a id="actu" href="http://aquanux/~11504512/projet/actualité.html"	>Lyon</a></li>
