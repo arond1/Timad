@@ -8,20 +8,28 @@
 			<img src="bandeau.PNG" alt="bandeau" id="bandeau"/>
 		</div>
 
-		
+
+			
 	<div id="content">
 
 		<div id="Article2">
 			<h3 class="titreContent"> recherchez une enseigne </h3>
-			<form method="post" action="traitement.php">
+
 				<table>
 					<tr>
-						<td>Nom de l'enseigne</td> <td><input type="text" name="Nom" /></td>
-						 <input type="submit" value="Valider" />
+						<?php 
+						//SELECT * FROM `salon` WHERE `Nom` LIKE 'test' 
+						$reponse = $bdd->query('SELECT * FROM `salon` WHERE `Nom` LIKE \''.$_POST['Nom'].'\' ');
+						$donnees = $reponse->fetch();
+						echo "<td> Nom Salon : ".$donnees['Nom']."</td>";
+						?>
+						<br/>
+						<?php
+						echo "<td> Nom Gerant : ".$donnees['Gerant']."</td>";
+						?>
 					</tr>
 				</table>
 
-			</form>
 
 		</div>
 	</div>
@@ -29,6 +37,6 @@
 	</div>
 	
 	<?php include("foot.php"); ?>
-
+<?php $reponse->closeCursor(); ?>
 	</body>
 </html>
