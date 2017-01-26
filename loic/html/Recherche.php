@@ -2,7 +2,7 @@
 <html>
 
 	<?php include("head.php"); ?>
-	
+	<?php include("accessbdd.php"); ?>
 		<body>
 		<div>
 			<img src="bandeau.PNG" alt="bandeau" id="bandeau"/>
@@ -10,11 +10,6 @@
 
 		
 	<div id="content">
-		<div id="Article1">
-			<h3 class="titreContent"> Enseigne de la semaine </h3>
-			<div class="img-art"> <img src="SalonDeLaSemaine.jpg" alt="SalonDeLaSemaine.jpg" /> </div>
-			<p class="texte">Nom:	XXXXX <br> Adresse: WWWWWWW <br> Ajouter d'autre spécification </p>
-		</div>
 
 		<div id="Article2">
 			<h3 class="titreContent"> recherchez une enseigne </h3>
