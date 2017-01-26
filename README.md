@@ -1,7 +1,7 @@
 # Timad
 
 adresse site :
-http://89.234.182.227/htm
+http://89.234.182.227/html/index.php
 
 dl ultra vnc :
 http://support1.uvnc.com/download/1212/UltraVNC_1_2_12_X64_Setup.exe
