@@ -23,7 +23,7 @@
 					<tr>
 						<td>Nom de l'enseigne</td> <td><input type="text" name="Nom" /></td>
 						<br/>
-						 <input type="submit" value="Valider" />
+						 <td><input type="submit" value="Valider" /></td>
 					</tr>
 				</table>
 
