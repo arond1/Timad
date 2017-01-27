@@ -10,12 +10,12 @@
 				<li> 
 					<a href="./index.php"><img src="nav_home_log.png" alt="Home" class="img-nav"/></a> 
 				</li>
-    			<li class="liN onglet"> <a id="assoc" href="http://aquanux/11504512/projet/association.html">Paris</a> </li>
-    			<li class="liN onglet"> <a id="actu" href="http://aquanux/~11504512/projet/actualité.html"	>Lyon</a></li>
-    			<li class="liN onglet"> <a id="galerie" href="http://aquanux/~11504512/projet/galerie.html"	>Marseille</a> </li>
-    			<li class="liN onglet"> <a id="shop" href="http://aquanux/~11504512/projet/shop.html"		>Lille</a> </li>
-    			<li class="liN onglet"> <a id="forum" href="http://aquanux/~11504512/projet/forum.html"		>Toulouse</a> </li>
-    			<li class="liN onglet"> <a id="contact" href="http://aquanux/~11504512/projet/contact.html"	>Bordeaux</a> </li>
+    			<li class="liN onglet"> <a id="assoc" href="./index.php">Paris</a> </li>
+    			<li class="liN onglet"> <a id="actu" href="./index.php"	>Lyon</a></li>
+    			<li class="liN onglet"> <a id="galerie" href="./index.php"	>Marseille</a> </li>
+    			<li class="liN onglet"> <a id="shop" href="./index.php"		>Lille</a> </li>
+    			<li class="liN onglet"> <a id="forum" href="./index.php"		>Toulouse</a> </li>
+    			<li class="liN onglet"> <a id="contact" href="./index.php"	>Bordeaux</a> </li>
     			<li> 			
 						<form role="search" method="get" class="forme" action="https://www.google.fr/">
 							<label>
