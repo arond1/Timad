@@ -15,6 +15,8 @@ public class Magasins {
 	private String Tel;
 	private int Prix;
 	private int Note;
+	private float lattitude;
+	private float longitude;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
