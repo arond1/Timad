@@ -13,8 +13,6 @@ public class Magasin {
 	private String Ville;
 	private int CodePostal;
 	private String Tel;
-	private int Prix;
-	private int Note;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -52,51 +50,25 @@ public class Magasin {
 		return Ville;
 	}
 
-
 	public void setVille(String ville) {
 		Ville = ville;
 	}
-
 
 	public int getCodePostal() {
 		return CodePostal;
 	}
 
-
 	public void setCodePostal(int codePostal) {
 		CodePostal = codePostal;
 	}
-
 
 	public String getTel() {
 		return Tel;
 	}
 
-
 	public void setTel(String tel) {
 		Tel = tel;
 	}
-
-
-	public int getPrix() {
-		return Prix;
-	}
-
-
-	public void setPrix(int prix) {
-		Prix = prix;
-	}
-
-
-	public int getNote() {
-		return Note;
-	}
-
-
-	public void setNote(int note) {
-		Note = note;
-	}
-
 
 	public Magasin() {
 		// TODO Auto-generated constructor stub
