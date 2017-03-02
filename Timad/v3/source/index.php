@@ -19,14 +19,15 @@ include("head.php");
 		echo '<div id="Article2">' ;
 			echo '<h3 class="titreContent"> Rechercher une enseigne </h3>' ;
 			echo '<form method="get" action="Recherche.php">' ;
-						echo 'Nom de l\'enseigne: ' ;
-						echo '<input type="text" name="Nom" /><br>' ;
-						echo 'Ville de l\'enseigne: ' ;
-						echo '<input type="text" name="Ville" /><br>' ;
-						echo 'CodePostal de l\'enseigne: ' ;
-						echo '<input type="text" name="CodePostal" /><br>' ;
-						 echo '<input type="submit" value="Valider" />' ;
-
+			echo "<div>";
+						echo '<p>'.'Nom de l\'enseigne:        ' ;
+						echo '<input type="text" name="Nom" /><br>'.'</p>'  ;
+						echo '<p>'.'Ville de l\'enseigne:      '  ;
+						echo '<input type="text" name="Ville" /><br>'.'</p>'  ;
+						echo '<p>'.'CodePostal de l\'enseigne: '  ;
+						echo '<input type="text" name="CodePostal" /><br>'.'</p>'  ;
+						 echo '<p>'.'<input type="submit" value="Valider" />'.'</p>'  ;
+			echo "</div>";
 			echo '</form>' ;
 
 		echo '</div>' ;
